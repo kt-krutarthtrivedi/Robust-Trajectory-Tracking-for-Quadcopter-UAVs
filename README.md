@@ -1,4 +1,4 @@
-# Robust Trajectory Tracking for Quadrotor UAVs
+# Robust Trajectory Tracking for Quadcopter UAVs
 
 The objective of this project is to develop a robust control scheme to enable a quadrotor to track
 desired trajectories in the presence of external disturbances.The control design is tested on the Crazyflie 2.0 platform. Crazyflie is a quadrotor
