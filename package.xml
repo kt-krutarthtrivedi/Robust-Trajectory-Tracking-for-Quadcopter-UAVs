@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>project</name>
+  <name>Robust-Trajectory-Tracking-for-Quadcopter-UAVs</name>
   <version>0.0.0</version>
-  <description>RBE502 - Spring 2023 - Project Package</description>
+  <description>A ROS Package for Robust-Trajectory-Tracking-for-Quadcopter-UAVs</description>
 
   <maintainer email="ktrivedi@wpi.edu">krutarthtrivedi</maintainer>
-  <maintainer email="dspatel@wpi.edu">dhruvpatel</maintainer>
 
   <license>BSD</license>
 
