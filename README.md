@@ -4,7 +4,7 @@ The objective of this project is to develop a robust control scheme to enable a 
 desired trajectories in the presence of external disturbances.The control design is tested on the Crazyflie 2.0 platform. Crazyflie is a quadrotor
 that is classified as a micro air vehicle (MAV), as it only weighs 27 grams and can fit in a hand.
 
-# Crazyflie 2.0 Setup in Gazebo
+## Crazyflie 2.0 Setup in Gazebo
 
 To set up the Crazyflie 2.0 quadrotor in Gazebo, we need to install additional ROS dependencies
 for building packages as below:
@@ -26,7 +26,7 @@ rosdep update
 ```
 sudo apt-get install ros-noetic-ros libgoogle-glog-dev
 ```
-# Instruction for setting the Enviroment 
+## Instruction for setting the Enviroment 
 
 **Clone this repo to create a new ROS workspace for Sliding Mode Controller**
 
@@ -77,7 +77,7 @@ catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release -DCATKIN_ENABLE_TESTING=Fa
 ```
 catkin build
 ```
-# Running the Project
+## Running the Project
 
 **Before running the project, make sure to change the directory to store log file for visualization**
 
@@ -93,14 +93,14 @@ roslaunch rotors_gazebo crazyflie2_without_controller.launch
 rosrun Robust-Trajectory-Tracking-for-Quadcopter-UAVs main.py
 ```
 
-# Simulation Results
+## Simulation Results
 
-**Trajectory tracking**
+### **Trajectory tracking**
 
 Following plot displays the desired trajectory to be tracked in green and the actual trajectory followed by the quadcopter in blue and their deviation.
 
 ![trajectory](https://user-images.githubusercontent.com/72921304/208376503-250e9ea8-881f-4274-8a5b-c75674691157.png)
 
-**Gazebo simulation**
+### **Gazebo simulation**
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/72921304/208376568-bcdbbdfb-691d-4f91-98c8-67eb480cf2fb.gif)
